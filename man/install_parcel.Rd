@@ -2,11 +2,11 @@
 % Please edit documentation in R/engine.R
 \name{install_parcel}
 \alias{install_parcel}
-\title{Initialise}
+\title{Install Parcel}
 \usage{
 install_parcel(scope = "dev")
 }
 \description{
-Initialise
+Install Parcel
 }
 \keyword{internal}

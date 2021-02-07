@@ -49,7 +49,7 @@ init <- function(){
   eval_call(call)
 }
 
-#' Initialise
+#' Install Parcel
 #' @keywords internal
 install_parcel <- function(scope = "dev"){
   engine <- get_engine()
