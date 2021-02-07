@@ -60,3 +60,17 @@ install_parcel <- function(scope = "dev"){
     yarn::yarn_add("parcel-bundler", scope = scope)
 
 }
+
+#' Run Command on Engine
+#' 
+#' @param ... Arguments to pass to command
+#' 
+#' @keywords internal
+engine_run <- function(...){
+  engine <- get_engine()
+
+  if(engine == "npm")
+    npm::npm_run("run", ...)
+  else 
+    yarn::yarn_run(...)
+}
