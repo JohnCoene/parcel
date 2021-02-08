@@ -4,12 +4,12 @@
 #' 
 #' @name build
 #' @export
-parcel_build <- function(){
+build <- function(){
   engine_run("build")
 }
 
 #' @describeIn build Run the `dev` server
 #' @export
-parcel_dev <- function(){
+dev <- function(){
   engine_run("dev")
 }

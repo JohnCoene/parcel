@@ -1,4 +1,3 @@
-
 # parcel
 
 <!-- badges: start -->
@@ -28,4 +27,3 @@ setwd("testParcel")
 set_engine("yarn") # defaults to npm
 scaffold_parcel()
 ```
-
