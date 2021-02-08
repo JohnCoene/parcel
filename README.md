@@ -1,9 +1,15 @@
+<div align="center">
+
 # parcel
+
+[docs](https://parcel.john-coene.com)
 
 <!-- badges: start -->
 <!-- badges: end -->
 
 Interact with [parcel](https://parceljs.org) from R, supports [npm](https://github.com/JohnCoene/npm) and [yarn](https://github.com/JohnCoene/yarn).
+
+</div>
 
 ## Installation
 
